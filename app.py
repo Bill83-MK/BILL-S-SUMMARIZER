@@ -2,10 +2,6 @@ import streamlit as st
 
 st.title("Bill's Summarizer")
 st.write("This is a simple text summarizer app.")
-import streamlit as st
-
-st.title("Bill's Summarizer")
-st.write("This is a simple text summarizer app.")
 
 # Add a text input area
 user_input = st.text_area("Enter text to summarize:", "")
