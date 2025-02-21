@@ -18,7 +18,7 @@ def clean_text(text):
     text = re.sub(r'http\S+', '', text)  # Remove links
     return text.strip()
 
-def summarize_text(text, max_len=50):
+def summarize_text(text, max_len=5000):
     """Summarize text while dynamically adjusting max_length."""
     text = clean_text(text)
     input_words = text.split()
